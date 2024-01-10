@@ -1,36 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
-    <style> 
+    <link href='https://fonts.googleapis.com/css?family=Chilanka' rel='stylesheet'>
+    <style>
         body {
-            background-color: rgb(255,0,0);
-            color:blueviolet;
-            margin-top: 200;
+            background-image: url('images/cat1.jpg');
+            color: black;
+            font-family: 'Courier New', monospace;
+
         }
+
+        .div1 {
+            background-color: white;
+            width: 150 px;
+            height: 30px;
+            border: 15px solid black;
+            text-align: center;
+
+            padding-bottom: 175px;
+            margin-right: 300px;
+            margin-left: 300px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Chilanka';
+
+
+
+        }
+
+        .div2 {
+            background-color: white;
+            width: 450 px;
+            border: 15px solid black;
+            padding: 50px;
+            margin: 90px;
+            font-family: 'Chilanka';
+        }
+
         h1 {
-            color: blue;
+            color: black;
             font-size: 60px;
+
         }
+
         h2 {
             background-color: white;
         }
-        .container{
-            color:white;
+
+        .container {
+            color: black;
+        }
+
+        #dog2 {
+            object-position: center;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 8px solid black;
         }
     </style>
 </head>
+
 <body>
-    <h1> Hello World </h1>
-    <h2> What's going on </h2>
-    <div class="container">
-    <p> Yes, we are building GitHub on GitHub. In fact, we’ve been doing this since October 19th, 2007. That's when we made our first commit. Since then we pushed over 2.5 million commits, opened over 1 million issues, submitted roughly 650k pull requests across 4357 repositories from over 50 countries 🤯. But that's just us. We are proud to be part of the work of millions of developers, companies and robots across the solar system </p>
+
+    <div class="div1">
+        <h1 style="font-size:100px"><b>Hello World!</b></h1>
+
     </div>
-    <p> What's up <em>everyone</em> </p>
+
+    <div class="div2">
+        <p style="text-align: center"> I'm Ashley
+        </p>
+        <p style="text-align: center"> I'm a Junior in Illustration
+        </p>
+        <p style="text-align: center"> I love all things mint colored and animals especially my dog Spunky
+        </p>
+        <img src="images/sp2.jpg" class="center">
+        <p style="text-align: center"> My current interest is making Vtubers
+        </p>
+    <video width="400" controls>
+        <source src="videos/bearv.mp4" type="video/mp4" class="center">
+        
+    </video>
+    <video width="395" controls>
+        <source src="videos/tiger2.mp4" type="video/mp4">
+    </video>
+    </div>
     <p><a href="https://www.google.com" target="_blank">Let's go to Google</a></p>
-    <img src="images/dog.jpeg" alt="dog">
+
+
 
 </body>
+
 </html>
